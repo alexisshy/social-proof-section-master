@@ -42,50 +42,35 @@
         margin-right: 900px;
       }
       .ratings{
+        border: 2px solid hsl(300, 24%, 96%);
+        border-radius: 5px;
+        width: 410px;
+        background-color: hsl(300, 24%, 96%);
         color: hsl(300, 43%, 22%);
+        height: 50px;
+        text-align: center;
 
       }
       .verifiedBuyer {
         color: hsl(333, 80%, 67%);
+
       }
-      .Reviews {
-        border: 2px solid hsl(300, 24%, 96%);
-        border-radius: 5px;
-        width: 410px;
+      #reviews {
         margin-right: 350px;
         margin-top: 125px;
-
         margin-left: 800px;
         position: relative;
-        background-color: hsl(300, 24%, 96%);
-        color: hsl(300, 43%, 22%);
-        height: 50px;
-        text-align: center;
         
-
       }
-      .Report {
-        border: 2px solid hsl(300, 24%, 96%);
-        border-radius: 5px;
-        width: 410px;
+      #report {
         margin-top: 130px;
         margin-left: 850px;
-        background-color: hsl(300, 24%, 96%);
-        color: hsl(300, 43%, 22%);
-        height: 50px;
-        text-align: center;
-
+        
       }
-      .BestTech {
-        border: 2px solid hsl(300, 24%, 96%);
-        border-radius: 5px;
-        width: 410px;
+      #best-tech {
         margin-top:135px;
         margin-left: 900px;
-        background-color: hsl(300, 24%, 96%);
-        color: hsl(300, 43%, 22%);
-        height: 50px;
-        text-align: center;
+        
 
       }
       .buyers {
@@ -93,28 +78,34 @@
         border-radius: 5px; 
         background-color: hsl(300, 43%, 22%); 
         height: 200px;
-        width: 25%;
+        width: 325px;
         color: hsl(0, 0%, 100%);
+        float: left;
+        text-align: center;
+        
 
       }
       #colton {
-        margin-top: 20px;
-        margin-left: 10px;
-        margin: 50px 700px 100px 50px;
-        padding-right: 10px
+        padding-right: 10px;
+
+
       }
       #irene {
-        margin-left: 630px;
-        margin-top: 45px;
+        margin-top: 15px;
+        margin-left: 29px;
 
       }
       #anne {
-        margin-left: 275px;
-        margin-left: 900px;
+        margin-top: 30px;
+        margin-left: 29px;
+        
 
       }
       img {
         border-radius: 50%;
+        float: left;
+
+      
       }
     </style>
   </head>
@@ -126,7 +117,7 @@
       <p class= "text">We only provide great products combined with excellent customer service.</p>
     </div>
     <div>
-      <div class= "Reviews">
+      <div id="reviews" class= "ratings">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
@@ -134,7 +125,7 @@
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <p>Rated 5 Stars in Reviews</p>
       </div>
-      <div class= "Report">
+      <div id="report"class= "ratings">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
@@ -142,7 +133,7 @@
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <p>Rated 5 Stars in Report Guru</p>
       </div>
-      <div class= "BestTech">
+      <div id="best-tech" class= "ratings">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
@@ -152,32 +143,35 @@
       </div>
   </div>
     <div id="colton" class= "buyers">
-      <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-colton.jpg">
-      <p>Colton Smith</p>
+      <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-colton.jpg" width=
+      "45">
+      Colton Smith
       <div class= "verifiedBuyer">
-      <p>Verified Buyer</p>
+      Verified Buyer
   </div>
-  
-      <p>"We needed the same printed design as the one we had ordered a week prior.
+      <br>
+      "We needed the same printed design as the one we had ordered a week prior.
       Not only did they find the original order, but we also received it in time.
-      Excellent!"</p>
+      Excellent!"
   </div>
     <div id="irene" class= "buyers">
-      <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-irene.jpg">
+      <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-irene.jpg" width="45">
       Irene Roberts
     <div class= "verifiedBuyer"> 
       Verified Buyer
   </div>
+      <br>
   
       "Customer service is always excellent and very quick turn around. Completely
       delighted with the simplicity of the purchase and the speed of delivery."
   </div>
     <div id="anne" class= "buyers">
-      <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-anne.jpg">
+      <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-anne.jpg" width="45">
       Anne Wallace 
     <div class="verifiedBuyer">
       Verified Buyer
   </div>
+      <br>
   
       "Put an order with this company and can only praise them for the very high
       standard. Will definitely use them again and recommend them to everyone!"

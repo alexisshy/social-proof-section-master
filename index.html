@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
     <!-- displays site properly based on user's device -->
 
     <link
@@ -25,15 +27,17 @@
       }
       body {
         font-size: 15px;
-        font-family: Arial;
-        font-weight: 700;
+        font-family: Spartan;
+        font-weight: ;
       }
       .users {
         color: hsl(300, 43%, 22%);
         font-size: 50px;
-        margin-left: 290px;
+        margin-left: 30px;
         margin-top: 125px;
         margin-right: 900px;
+        font-weight: 700;
+        
       }
       p {
         color: ;
@@ -49,10 +53,13 @@
         color: hsl(300, 43%, 22%);
         height: 50px;
         text-align: center;
+        font-weight: 700;
 
       }
       .verifiedBuyer {
         color: hsl(333, 80%, 67%);
+        font-weight: 400;
+        
 
       }
       #reviews {
@@ -75,24 +82,33 @@
       }
       .buyers {
         border: 2px solid hsl(300, 43%, 22%);  
-        border-radius: 5px; 
+        border-radius: 10px; 
         background-color: hsl(300, 43%, 22%); 
         height: 200px;
         width: 325px;
         color: hsl(0, 0%, 100%);
         float: left;
-        text-align: center;
+        text-align: left;
+        font-weight: 400;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: ;
+        line-height: 1.5;
+        
         
 
       }
       #colton {
         padding-right: 10px;
+        
 
 
       }
       #irene {
         margin-top: 15px;
         margin-left: 29px;
+        
 
       }
       #anne {
@@ -104,9 +120,11 @@
       img {
         border-radius: 50%;
         float: left;
+        margin-right: 30px;
 
       
       }
+    
     </style>
   </head>
   <body>
@@ -145,7 +163,7 @@
     <div id="colton" class= "buyers">
       <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-colton.jpg" width=
       "45">
-      Colton Smith
+      <strong>Colton Smith</strong>
       <div class= "verifiedBuyer">
       Verified Buyer
   </div>
@@ -156,7 +174,7 @@
   </div>
     <div id="irene" class= "buyers">
       <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-irene.jpg" width="45">
-      Irene Roberts
+      <strong>Irene Roberts</strong>
     <div class= "verifiedBuyer"> 
       Verified Buyer
   </div>
@@ -167,7 +185,7 @@
   </div>
     <div id="anne" class= "buyers">
       <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-anne.jpg" width="45">
-      Anne Wallace 
+      <strong>Anne Wallace</strong> 
     <div class="verifiedBuyer">
       Verified Buyer
   </div>

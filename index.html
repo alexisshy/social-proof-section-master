@@ -28,23 +28,38 @@
       body {
         font-size: 15px;
         font-family: Spartan;
-        font-weight: ;
+        background-image: url("C:\\Users\\silve\\Documents\\Projects\\social-proof-section-master\\social-proof-section-master\\images\\bg-pattern-top-desktop.svg"), url("C:\\Users\\silve\\Documents\\Projects\\social-proof-section-master\\social-proof-section-master\\images\\bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        min-height: 100%;
+        background-position: left -20px bottom 400px, right -50px top 100px;
+        width: 1169px;
+        margin: 0 auto;
+      
+        
       }
       .users {
         color: hsl(300, 43%, 22%);
         font-size: 50px;
-        margin-left: 30px;
-        margin-top: 125px;
-        margin-right: 900px;
+        margin-top: 20px;
         font-weight: 700;
-        
-      }
-      p {
-        color: ;
-        margin-left: 290px;
-        margin-top: ;
-        margin-right: 900px;
-      }
+        line-height: 1;
+        width: 400px;
+        }
+    .text {
+      color:hsl(303, 10%, 53%);
+      padding-top: 5px;
+      width: 400px;
+    }
+    .p {
+      border: 2px solid black; 
+      height: 200px;
+      width: 200px;
+
+    }
+    .text-container {
+      float: left;
+    }
+     
       .ratings{
         border: 2px solid hsl(300, 24%, 96%);
         border-radius: 5px;
@@ -52,31 +67,34 @@
         background-color: hsl(300, 24%, 96%);
         color: hsl(300, 43%, 22%);
         height: 50px;
-        text-align: center;
+        justify-content: center;
         font-weight: 700;
-
-      }
-      .verifiedBuyer {
-        color: hsl(333, 80%, 67%);
-        font-weight: 400;
+        margin-top: 50px;
+        
+        
         
 
       }
+      .ratings-container {
+        float: right;
+      }
+      
       #reviews {
-        margin-right: 350px;
-        margin-top: 125px;
-        margin-left: 800px;
-        position: relative;
+      
+        margin-bottom: 10px;
+        margin-left: 0px;
+        
+        
         
       }
       #report {
-        margin-top: 130px;
-        margin-left: 850px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        
         
       }
       #best-tech {
-        margin-top:135px;
-        margin-left: 900px;
+        margin-left: 100px;
         
 
       }
@@ -93,34 +111,49 @@
         padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: ;
         line-height: 1.5;
+         
         
+        
+        
+        
+
+      }
+      .verifiedBuyer {
+        color: hsl(333, 80%, 67%);
+        font-weight: 400;
         
 
       }
       #colton {
         padding-right: 10px;
+        clear: left;
+        margin-top: 70px;
+        
         
 
 
       }
       #irene {
-        margin-top: 15px;
+        margin-top: 80px;
         margin-left: 29px;
+        
+        
         
 
       }
       #anne {
-        margin-top: 30px;
+        margin-top: 90px;
         margin-left: 29px;
+        
+      
         
 
       }
       img {
         border-radius: 50%;
         float: left;
-        margin-right: 30px;
+        margin-right: 5px;
 
       
       }
@@ -128,20 +161,22 @@
     </style>
   </head>
   <body>
-    <div class= "users">
-      <p>10,000+ of our users love our products.</p>
-  </div>
-    <div>
-      <p class= "text">We only provide great products combined with excellent customer service.</p>
+    <div class= "text-container">
+      <div class= "users">
+        <p>10,000+ of our users love our products.</p>
+      </div>
+      <div>
+        <p class= "text">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+      </div>
     </div>
-    <div>
+    <div class= "ratings-container">
       <div id="reviews" class= "ratings">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
-        <p>Rated 5 Stars in Reviews</p>
+        <span>Rated 5 Stars in Reviews</span>
       </div>
       <div id="report"class= "ratings">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
@@ -149,7 +184,7 @@
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
-        <p>Rated 5 Stars in Report Guru</p>
+        <span>Rated 5 Stars in Report Guru</span>
       </div>
       <div id="best-tech" class= "ratings">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
@@ -157,7 +192,7 @@
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
         <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\icon-star.svg">
-        <p>Rated 5 Stars in BestTech</p>
+        <span>Rated 5 Stars in BestTech</span>
       </div>
   </div>
     <div id="colton" class= "buyers">
@@ -165,41 +200,36 @@
       "45">
       <strong>Colton Smith</strong>
       <div class= "verifiedBuyer">
-      Verified Buyer
+      <span>Verified Buyer</span>
   </div>
       <br>
-      "We needed the same printed design as the one we had ordered a week prior.
+      <span>"We needed the same printed design as the one we had ordered a week prior.
       Not only did they find the original order, but we also received it in time.
-      Excellent!"
+      Excellent!"</span>
   </div>
     <div id="irene" class= "buyers">
       <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-irene.jpg" width="45">
       <strong>Irene Roberts</strong>
     <div class= "verifiedBuyer"> 
-      Verified Buyer
+      <span>Verified Buyer</span>
   </div>
       <br>
   
-      "Customer service is always excellent and very quick turn around. Completely
-      delighted with the simplicity of the purchase and the speed of delivery."
+      <span>"Customer service is always excellent and very quick turn around. Completely
+      delighted with the simplicity of the purchase and the speed of delivery."</span>
   </div>
     <div id="anne" class= "buyers">
       <img src="C:\Users\silve\Documents\Projects\social-proof-section-master\social-proof-section-master\images\image-anne.jpg" width="45">
       <strong>Anne Wallace</strong> 
     <div class="verifiedBuyer">
-      Verified Buyer
+      <span>Verified Buyer</span>
   </div>
       <br>
   
-      "Put an order with this company and can only praise them for the very high
-      standard. Will definitely use them again and recommend them to everyone!"
+      <span>"Put an order with this company and can only praise them for the very high
+      standard. Will definitely use them again and recommend them to everyone!"</span>
   </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    
   </body>
 </html>
